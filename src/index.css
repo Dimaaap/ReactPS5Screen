@@ -30,3 +30,33 @@ body {
 button {
   cursor: pointer;
 }
+
+.swiper-slide-active  >button > div {
+  @apply shadow-xl;
+}
+
+.swiper-slide-active >button >div:first-child > img {
+  @apply w-48 h-48;
+}
+
+.swiper-slide-active > button > div:first-child {
+  @apply border-white;
+}
+
+.swiper-slide-active > button > div:last-child > img {
+  @apply block;
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

@@ -1,71 +1,73 @@
 export const GAMES_DATA = [{
     title: "Final Fantasy VII Remake",
     slug: "final-fantasy-vii-remake",
-    coverImage: "/images/ff7-cover.jpg",
-    bgImage: "/images/bg-ff.jpg",
-    platform: "PS5 Pro"
+    coverImage: "/images/covers/ff7-cover.jpeg",
+    bgImage: "/images/backgrounds/bg-ff.jpg",
+    platform: "PS5"
 },
 {
     title: "Ghost of Tsushima",
     slug: "ghost-of-tsushima",
-    coverImage: "/images/ghost-of-tsushima-cover.jpeg",
-    bgImage: "/images/ghost-of-tsushima-bg.jpeg",
+    coverImage: "/images/covers/ghost-of-tsushima-cover.jpeg",
+    bgImage: "/images/backgrounds/ghost-of-tsushima-bg.jpeg",
     platform: "PS5"
 },
 {
     title: "PlayStation Store",
     slug: "playstation-store",
-    coverImage: "/images/ps-store-cover.jpeg",
-    bgImage: "/images/ps-store-bg.jpeg",
+    coverImage: "/images/covers/ps-store-cover.jpeg",
+    bgImage: "/images/backgrounds/ps-store-bg.jpeg",
     platform: "PS5"
 },
 {
     title: "Chrono Cross",
     slug: "chrono-cross",
-    coverImage: "/images/chrono-cross-cover.jpeg",
-    bgImage: "/images/chrono-cross-bg.jpeg",
+    coverImage: "/images/covers/chrono-cross-cover.jpeg",
+    bgImage: "/images/backgrounds/chrono-cross-bg.jpeg",
     platform: "PS5"
 },
 {
     title: "Shadow of the Colossus",
     slug: "shadow-of-the-colossus",
-    coverImage: "/images/shadow-of-the-colossus-cover.jpg",
-    bgImage: "/images/backgrounds/shadow-of-the-colossus-bg.jpg",
+    coverImage: "/images/covers/shadow-of-colossus-cover.jpeg",
+    bgImage: "/images/backgrounds/shadow-of-colossus-bg.jpeg",
     platform: "PS4"
 },
 {
     title: "Resident Evil 2",
     slug: "resident-evil-2",
-    coverImage: "/images/covers/resident-evil-2.jpg",
-    bgImage: "/images/backgrounds/resident-evil-2.jpg",
+    coverImage: "/images/covers/resident-evil-2-cover.jpeg",
+    bgImage: "/images/backgrounds/resident-evil-2-bg.jpeg",
     platform: "PS4"   
 },
 {
     title: "Rayman Legends",
     slug: "rayman-legends",
-    coverImage: "/images/cover/rayman-legends.jpg",
-    bgImage: "/images/backgrounds/rayman-legends.jpg",
+    coverImage: "/images/covers/rayman-legends-cover.jpeg",
+    bgImage: "/images/backgrounds/rayman-legends-bg.jpeg",
     platform: "PS4"
 },
 {
     title: "Call of Duty: Modern Warfare",
     slug: "call-of-duty-modern-warfare",
-    coverImage: "/images/covers/cod-modern-warfare.jpg",
-    bgImage: "/images/backgrounds/cod-modern-warfare-bg.jpg",
+    coverImage: "/images/covers/cod-modern-warfare-cover.jpeg",
+    bgImage: "/images/backgrounds/cod-modern-warfare-bg.jpeg",
     platofrm: "PS4"
 },
 {
     title: "Bardur`s Gate 3",
     slug: "baldurs-gate-3",
-    coverImage: "/images/covers/baldurs-gate-3.jpg",
-    bgImage: "/images/backgrounds/baldurs-gate-3-bg.jpg",
+    coverImage: "/images/covers/baldurs-gate-cover.jpeg",
+    bgImage: "/images/backgrounds/baldurs-gate-bg.jpeg",
     paltform: "PS5"
 },
 {
     title: "Death Stranding",
     slug: "death-stranding",
-    coverImage: "/images/covers/death-stranding.jpg",
-    bgImage: "/images/backgrounds/death-stranding.jpg",
+    coverImage: "/images/covers/death-stranding-cover.jpeg",
+    bgImage: "/images/backgrounds/death-stranding-bg.jpeg",
     platform: "PS5"
 }
 ]
+
+export type TGame = (typeof GAMES_DATA)[number] 
